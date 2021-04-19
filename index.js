@@ -42,8 +42,6 @@ function counterMaker() {
   return function counter() {
    return count++;
   }
-
-  
 }
 
 const counter1 = counterMaker();
